@@ -1,4 +1,4 @@
 # Under Construction
-> A simple, minimalistic & cross-device compatible landing page for when your website is in production
+> Our repository will be soon available
 
 <img src=demo.png/>
