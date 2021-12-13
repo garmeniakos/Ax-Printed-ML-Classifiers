@@ -4,4 +4,4 @@
 
 > Our repository will be soon available
 
-<img src=demo.png/>
+<img src=.png/>
