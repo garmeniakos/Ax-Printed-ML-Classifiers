@@ -38,7 +38,15 @@ begin
                 end
                 $fscanf(inFile,"\n");
                 #(period)
-                $fwrite(outFile,"%d\n", out);
+                if ($itor(out)/(2**8) - $rtoi($itor(out)/(2**8)) > 0.5) begin
+                    if ($rtoi($itor(out)/(2**12))+1 > 9) begin
+                        $fwrite(outFile,"%d\n", $rtoi($itor(9)));
+                    end else begin
+                        $fwrite(outFile,"%d\n", $rtoi($itor(out)/(2**8))+1);
+                    end
+                end else begin
+                    $fwrite(outFile,"%d\n", $rtoi($itor(out)/(2**8)));
+                end    
 
         end
         #(period)
