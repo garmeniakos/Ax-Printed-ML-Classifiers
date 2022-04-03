@@ -62,7 +62,7 @@ accuracy:  0.8808777429467085
 [[ArXiv link]](https://arxiv.org/abs/2203.05915)
 
 ## Reference
-Our repository is still under construction and new models & datasets are going to be added. All of the datasets were obtained from the UCI Machine Learning Repository:
+New models & datasets are going to be added in our repository. All of the datasets were obtained from the UCI Machine Learning Repository:
 
 [2] Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
