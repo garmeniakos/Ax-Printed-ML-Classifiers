@@ -52,7 +52,9 @@ accuracy:  0.8808777429467085
 ## Description
 
 **Exact_model**: Exact bespoke baseline models 
+
 **Only_coef_approx**: Models with 'only coefficient approximation'
+
 **Proposed_approx**: Our proposed approximate models with 'coefficient approximation & pruning' / 'only pruning'
 
 ## Publication:
