@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="#Description">Description</a> •
-  <a href="#Exact">Python Models</a> •
-  <a href="#Floating"> Accuracy Calculation </a> •
+  <a href="#Exact-baseline-models">Python Models</a> •
+  <a href="#Floating-point-accuracy"> Accuracy Calculation </a> •
   <a href="#Publication:">References</a> 
 </p>
 
