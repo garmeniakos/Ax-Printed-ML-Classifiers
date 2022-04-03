@@ -1,5 +1,12 @@
 # Cross-layer approximatios for printed ML circuits
 
+<p align="center">
+  <a href="#Description">Overview</a> •
+  <a href="#Baseline Accuracy">Exact baseline models</a> •
+  <a href="#Accuracy Calculation"> Floating-point accuracy </a> •
+  <a href="#References">Publication</a> 
+</p>
+
 ## Description
 In each /[name_of_dataset] directory you can find the verilog codes for the exact and approximate models for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R).
 
