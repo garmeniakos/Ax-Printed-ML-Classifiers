@@ -1,6 +1,14 @@
 # Cross-layer approximatios for printed ML circuits
-## Verilog Models
-In each /[name_of_dataset] directory you can find the verilog code for the exact baseline models (in /exact_model directory) for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R). In the /wr_approx_model directory you can find the verilog codes for our approximate models with our coefficient approximation.
+
+## Description
+In each /[name_of_dataset] directory you can find the verilog codes for the exact and approximate models for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R).
+
+**Exact_model**: Exact bespoke baseline models 
+
+**Only_coef_approx**: Models with 'only coefficient approximation'
+
+**Proposed_approx**: Our proposed approximate models with 'coefficient approximation & pruning' / 'only pruning' for different accuracy thresholds (i.e., 1%, 2%, 5%)
+
 
 
 ## Exact baseline models
@@ -49,13 +57,6 @@ Output:
 ```bash
 accuracy:  0.8808777429467085
 ``` 
-## Description
-
-**Exact_model**: Exact bespoke baseline models 
-
-**Only_coef_approx**: Models with 'only coefficient approximation'
-
-**Proposed_approx**: Our proposed approximate models with 'coefficient approximation & pruning' / 'only pruning' for different accuracy thresholds (i.e., 1%, 2%, 5%)
 
 ## Publication:
 [1] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel, “Cross-layer approximation for printed machine learning circuits,” 2022
