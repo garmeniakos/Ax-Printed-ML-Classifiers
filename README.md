@@ -4,7 +4,7 @@
   <a href="#Description">Description</a> •
   <a href="#Exact-baseline-models">Python Models</a> •
   <a href="#Floating-point-accuracy"> Accuracy Calculation </a> •
-  <a href="#Publication:">References</a> 
+  <a href="#Publication-:">References</a> 
 </p>
 
 ## Description
