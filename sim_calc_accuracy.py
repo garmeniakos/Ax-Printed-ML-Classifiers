@@ -44,11 +44,7 @@ y_test=array
 mpred=[]
 f = open(sim, "r")
 for ys in f:
-    if SIM_REGRESSOR:
-        y=to_float(int(ys),SIM_FRACTION_BITS)
-        y=int(np.clip(round(y),MINVAL,MAXVAL))
-    else:
-        y=SIM_YLST[int(ys)]
+    y=int(ys)
     mpred.append(y)
 
 
