@@ -39,7 +39,7 @@ begin
                 end
                 $fscanf(inFile,"\n");
                 #(period)
-                $fwrite(outFile,"%d\n", out);
+                $fwrite(outFile,"%d\n", out+1);
 
         end
         #(period)
