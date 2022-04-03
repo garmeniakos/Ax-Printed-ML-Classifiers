@@ -55,7 +55,7 @@ accuracy:  0.8808777429467085
 
 **Only_coef_approx**: Models with 'only coefficient approximation'
 
-**Proposed_approx**: Our proposed approximate models with 'coefficient approximation & pruning' / 'only pruning'
+**Proposed_approx**: Our proposed approximate models with 'coefficient approximation & pruning' / 'only pruning' for different accuracy thresholds (i.e., 1%, 2%, 5%)
 
 ## Publication:
 [1] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel, “Cross-layer approximation for printed machine learning circuits,” 2022
