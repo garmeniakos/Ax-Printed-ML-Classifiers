@@ -8,7 +8,7 @@
 </p>
 
 ## Description
-In each /[name_of_dataset] directory you can find the verilog codes for the exact and approximate models for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R).
+In each /[name_of_dataset] directory you can find the verilog codes for the exact and approximate models for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R) with the corresponding testbenches.
 
 **Exact_model**: Exact bespoke baseline models 
 
