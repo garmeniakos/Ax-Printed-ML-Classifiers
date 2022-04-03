@@ -16,17 +16,17 @@ In the following table the floating-point accuracy of the 4 different classifica
 
 ## Floating-point accuracy
 
-We provide the script ``fp_calc_accuracy.py`` to calculate the floating-point accuracy of (.joblib) models.
+We provide the script ``fp_calc_accuracy.py`` to calculate the floating-point accuracy of python (.joblib) models.
 
 Please use following command:
 
 ```bash
-python3 fp_calc_accuracy.py [name_of_dataset] [joblib file]
+python3 fp_calc_accuracy.py [name_of_dataset] [python_model_name]
 ``` 
 An example can be: 
 
 ```bash
-python3 fp_calc_accuracy.py Cardio ./cardio/joblib/Cardio.MLP_clf_nosearch.joblib
+python3 fp_calc_accuracy.py Cardio ./cardio/python_models/Cardio.MLP_clf_nosearch.joblib
 ``` 
 Output:
 ```bash
