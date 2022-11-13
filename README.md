@@ -66,7 +66,7 @@ accuracy:  0.8808777429467085
 ``` 
 
 ## Publication:
-[1] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel, “Cross-layer approximation for printed machine learning circuits,” 2022
+[1] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel. 2022. "Cross-layer approximation for printed machine learning circuits". In Proceedings of the 2022 Conference & Exhibition on Design, Automation & Test in Europe (DATE '22)
 [[ArXiv link]](https://arxiv.org/abs/2203.05915)
 
 ## Reference
