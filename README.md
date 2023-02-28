@@ -75,3 +75,8 @@ New models & datasets are going to be added in our repository. All of the datase
 [2] Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 
+# Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits
+
+**Our implementations will become soon availiable**
+
+![Preview](https://github.com/tmKamal/hosted-images/blob/master/under-construction/Document.gif?raw=true)<br/>  
