@@ -1,3 +1,10 @@
+## Overview
+Printed electronics denotes a set of printing methods which
+can realize ultra low-cost, large area and flexible computing systems in combination with functional materials to realize transistors and passive components on various substrates.
+
+![teaser](assets/figures/printed.png)
+
+
 # Cross-layer approximatios for printed ML circuits
 
 <p align="center">
