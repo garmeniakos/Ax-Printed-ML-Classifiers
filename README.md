@@ -4,6 +4,12 @@ can realize ultra low-cost, large area and flexible computing systems in combina
 
 ![teaser](assets/figures/printed_apps.png)
 
+But the large feature sizes (orders of magnitude lower than silicon VLSI) and the large intrinsic transistor gate capacitances, make Machine Learning deployment difficult.
+
+<p align="center">
+  <img src="assets/figures/table_printed.png" alt="teaser">
+</p>
+
 
 # Cross-layer approximatios for printed ML circuits
 
