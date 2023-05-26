@@ -1,24 +1,29 @@
+# Approximate Printed Machine Learning Classifiers
+
+<p align="center">
+  <a href="#Overview">Overview</a> •
+  <a href="#Cross-layer approx">Cross-layer approx</a> •
+  <a href="#Exact-baseline-models">Python Models</a> •
+  <a href="#Floating-point-accuracy"> Accuracy Calculation </a> •
+  <a href="#Publication">References</a> 
+</p>
+
 ## Overview
 Printed electronics denotes a set of printing methods which
 can realize ultra low-cost, large area and flexible computing systems in combination with functional materials to realize transistors and passive components on various substrates.
 
 ![teaser](assets/figures/printed_apps.png)
 
-But the large feature sizes (orders of magnitude lower than silicon VLSI) and the large intrinsic transistor gate capacitances, make Machine Learning deployment difficult.
+But the large feature sizes (orders of magnitude lower than silicon VLSI) and the large intrinsic transistor gate capacitances, make **Machine Learning** deployment difficult.
 
 <p align="center">
   <img src="assets/figures/table_printed.png" alt="teaser">
 </p>
 
 
-# Cross-layer approximatios for printed ML circuits
+## Cross-layer approximatios for printed ML circuits
 
-<p align="center">
-  <a href="#Description">Description</a> •
-  <a href="#Exact-baseline-models">Python Models</a> •
-  <a href="#Floating-point-accuracy"> Accuracy Calculation </a> •
-  <a href="#Publication">References</a> 
-</p>
+
 
 ## Description
 In each /[name_of_dataset] directory you can find the verilog codes for the exact and approximate models for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R) with the corresponding testbenches.
