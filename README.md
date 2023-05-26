@@ -84,13 +84,15 @@ accuracy:  0.8808777429467085
 ``` 
 
 ## Publication:
-[1] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel. 2022. "Cross-layer approximation for printed machine learning circuits". In Proceedings of the 2022 Conference & Exhibition on Design, Automation & Test in Europe (DATE '22)
+[1] M. H. Mubarik et al., "Printed Machine Learning Classifiers," 2020 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), Athens, Greece, 2020, pp. 73-87, doi: 10.1109/MICRO50266.2020.00019.
+
+[2] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori, and J. Henkel. 2022. "Cross-layer approximation for printed machine learning circuits". In Proceedings of the 2022 Conference & Exhibition on Design, Automation & Test in Europe (DATE '22)
 [[ArXiv link]](https://arxiv.org/abs/2203.05915)
 
 ## Reference
 New models & datasets are going to be added in our repository. All of the datasets were obtained from the UCI Machine Learning Repository:
 
-[2] Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+[3] Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
 
 # Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits
