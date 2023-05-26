@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#Overview">Overview</a> •
-  <a href="#Cross-layer approximatios for printed ML circuits">Cross-layer approx</a> •
+  <a href="#Cross-layer">Cross-layer approx</a> •
   <a href="#Exact-baseline-models">Python Models</a> •
   <a href="#Floating-point-accuracy"> Accuracy Calculation </a> •
   <a href="#Publication">References</a> 
