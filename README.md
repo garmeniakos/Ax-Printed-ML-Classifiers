@@ -1,11 +1,11 @@
 # Approximate Printed Machine Learning Classifiers
 
 <p align="center">
-  <a href="#Overview">Overview</a> •
+  <a href="#overview">Overview</a> •
   <a href="#cross-layer-approximatios-for-printed-ml-circuits">Cross-layer approx</a> •
-  <a href="#Exact-baseline-models">Python Models</a> •
-  <a href="#Floating-point-accuracy"> Accuracy Calculation </a> •
-  <a href="#Publication">References</a> 
+  <a href="#exact-baseline-models">Python Models</a> •
+  <a href="#floating-point-accuracy"> Accuracy Calculation </a> •
+  <a href="#publication">References</a> 
 </p>
 
 ## Overview
@@ -14,7 +14,7 @@ can realize ultra low-cost, large area and flexible computing systems in combina
 
 ![teaser](assets/figures/printed_apps.png)
 
-But the large feature sizes (orders of magnitude lower than silicon VLSI) and the large intrinsic transistor gate capacitances, make **Machine Learning** deployment difficult.
+But the large feature sizes (orders of magnitude lower than silicon VLSI) and the tight power budget (printed batteries support <30 mW), make **Machine Learning** deployment difficult.
 
 <p align="center">
   <img src="assets/figures/table_printed.png" alt="teaser">
