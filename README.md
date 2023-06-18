@@ -63,7 +63,7 @@ This work is an extension of [2] and includes verilog implementations for approx
 
 **cross_approx**: Our proposed models with 'cross' approximation for 1% accuracy threshold.
 
-Note that for the VOS-aware gate-level post-synthesis simulations the `define_scaling_lib_group` has been used and our tool-flow (scripts & printed PDKs) are available from the corresponding author upon request.
+Note that for the VOS-aware gate-level post-synthesis simulations the `define_scaling_lib_group` has been used.
 
 
 
@@ -110,7 +110,7 @@ accuracy:  0.8808777429467085
 - All the models are synthesized using Synopsys Design Compiler and open-source EGT PDK. 
 - Circuit simulations and power analysis are performed using Questasim and PrimeTime, respectively.
 - All the **area** and **power** results are for MLP-C classification algorithm and for 1% accuracy threshold w.r.t. our baseline models [1].
-- More results, models and scripts are available from the corresponding author upon request.
+- More results, models, scripts and PDKs are available from the corresponding author upon request.
 
 The **area** results:
 
