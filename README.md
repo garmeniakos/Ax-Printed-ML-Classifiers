@@ -3,8 +3,8 @@
 <p align="center">
   <a href="#overview">Overview</a> •
   <a href="#exact-baseline-models">Approximate techniques</a> •
-  <a href="#evaluate-fp32-models">Python Models</a> •
-  <a href="#evaluate-hdl-exactapprox-models"> HDL Accuracy Calculation </a> •
+  <a href="#evaluate-fp32-models">Accuracy evaluation</a> •
+  <a href="#measured-results"> Measured Results </a> •
   <a href="#references">References</a> 
 </p>
 
