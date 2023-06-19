@@ -31,6 +31,9 @@ In the following table the floating-point accuracy of the 4 different classifica
 | WhiteWine  | 0.53     | 0.54     | 0.53 | 0.53 |
 | Cardio     | 0.84     | 0.89     | 0.90 | 0.84 | 
 | Pendigits  | 0.39     | 0.94     |  0.98    |  0.23 | 
+| Seeds  | 0.94     | 0.87     |  0.92    |  0.75 | 
+| Vertebral Column 3C | 0.83 | 0.72 | 0.84 | 0.66 |
+| Balance Scale  | 0.91     | 0.86     |  0.89    |  0.81 | 
 
 
 ## Cross-layer approximatios for printed ML circuits [4]
