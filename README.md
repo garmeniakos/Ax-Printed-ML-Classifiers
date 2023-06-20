@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#overview">Overview</a> •
-  <a href="#exact-baseline-models">Approximate techniques</a> •
+  <a href="#exact-baseline-models">Approximation techniques</a> •
   <a href="#evaluate-fp32-models">Accuracy evaluation</a> •
   <a href="#measured-results"> Measured Results </a> •
   <a href="#references">References</a> 
@@ -23,7 +23,7 @@ But the large feature sizes (orders of magnitude lower than silicon VLSI) and th
 
 
 ## Exact baseline models
-In the following table the floating-point accuracy of the 4 different classification algorithms trained on 4 different datasets are presented:
+In the following table the floating-point accuracy of the 4 different classification algorithms trained on 7 different datasets are presented:
 
 |            | MLP-R | MLP-C | SVM-C  | SVM-R  | 
 |------------|----------|----------|------|------|
