@@ -1,4 +1,4 @@
-Accuracy of 4 different classification algorithms trained on 5 different datasets
+Accuracy of 4 different classification algorithms trained on 8 different datasets
 
 |            | MLP1-Reg | MLP1-Clf | SVC  | SVR  | Hidden Neurons (MLPs) |
 |------------|----------|----------|------|------|------|
