@@ -86,7 +86,7 @@ accuracy: 0.8808777429467085
 
 ## Cross-layer Approximations for Printed ML Circuits
 
-For detailed information on cross-layer approximations in printed machine learning circuits, refer to the `./Cross-layer approximations for printed ML circuits` directory.
+For detailed information on cross-layer approximations in printed machine learning circuits [4], refer to the `./Cross-layer approximations for printed ML circuits` directory.
 
 ## Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits [6]
 
