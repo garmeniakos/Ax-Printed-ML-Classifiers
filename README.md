@@ -2,8 +2,9 @@
 
 <p align="center">
   <a href="#overview">Overview</a> •
-  <a href="#exact-baseline-models">Approximation techniques</a> •
+  <a href="#exact-baseline-models">Baseline models</a> •
   <a href="#evaluate-fp32-models">Accuracy evaluation</a> •
+  <a href="#Cross-layer-Approximations-for-Printed-ML-Circuits">Our works</a> •  
   <a href="#measured-results"> Measured Results </a> •
   <a href="#references">References</a> 
 </p>
@@ -36,76 +37,66 @@ In the following table the floating-point accuracy of the 4 different classifica
 | Balance Scale  | 0.91     | 0.86     |  0.89    |  0.81 | 
 
 
-## Cross-layer approximatios for printed ML circuits [4]
 
+## Evaluate FP32 Models
 
-### Description
-In each /[name_of_dataset] directory you can find the verilog codes for the exact and approximate models for all of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R) with the corresponding testbenches.
+This section provides instructions on how to calculate the floating-point accuracy of Python (.joblib) models using the `fp_calc_accuracy.py` script.
 
-**Exact_model**: Exact bespoke baseline models 
+### Usage
 
-**Only_coef_approx**: Models with 'only coefficient approximation'
-
-**Proposed_approx**: Our proposed approximate models with 'coefficient approximation & pruning' / 'only pruning' for different accuracy thresholds (i.e., 1%, 2%, 5%)
-
-
-
-## Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits [5]
-
-### Description
-This work includes verilog implementations for approximate MLP-C models after applying  printing-friendly retraining and approximate summation. In each /[name_of_dataset] directory you can find the respective verilog codes.
-
-**retrain&AxSum**: Our proposed approximate MLP-C models with 'retrain & AxSum' for different accuracy threshold (i.e., 1%, 2%, 5%)
-
-
-
-## Model-to-Circuit Cross-Approximation For Printed Machine Learning Classifiers [6]
-
-### Description
-This work is an extension of [2] and includes verilog implementations for approximate models of the 4 different classification algorithms (MLP-C, MLP-R, SVM-C, SVM-R). Our `cross` approximation involves coefficient approximation, netlist pruning, and voltage over-scaling. In each /[name_of_dataset] directory you can find the respective verilog codes.
-
-**cross_approx**: Our proposed models with 'cross' approximation for 1% accuracy threshold.
-
-Note that for the VOS-aware gate-level post-synthesis simulations the `define_scaling_lib_group` has been used.
-
-
-
-
-## Evaluate FP32 models
-
-We provide the script ``fp_calc_accuracy.py`` to calculate the floating-point accuracy of python (.joblib) models.
-
-Please use following command:
+Execute the following command in your terminal:
 
 ```bash
-python3 fp_calc_accuracy.py [name_of_dataset] [python_model_name]
-``` 
-An example can be: 
+python3 fp_calc_accuracy.py <name_of_dataset> <python_model_name>
+```
+
+#### Example
 
 ```bash
-python3 fp_calc_accuracy.py Cardio ./cardio/python_models/Cardio.MLP_clf_nosearch.joblib
-``` 
-Output:
+python3 fp_calc_accuracy.py Cardio ./baseline_models/python/Cardio.MLP_clf_nosearch.joblib
+```
+
+#### Output
+
 ```bash
 FP ACCURACY W/ MODEL: 0.8871473354231975
-``` 
+```
 
-## Evaluate (HDL) exact/approx models
+## Evaluate HDL Exact/Approx Models
 
-To calculate the simulation accuracy of exact/approx models a simulation of corresponding testbench is required. After simulation a file ``sim_output.txt`` will be created in the same /testbench directory. To evaluate the accuracy please use following command:
+For evaluating the simulation accuracy of exact or approximate models, a simulation of the corresponding testbench is required. After simulation, a `sim_output.txt` file will be generated in the same `/testbench` directory. Use the following command to evaluate accuracy:
 
-```bash
-python3 sim_calc_accuracy.py [name_of_model] [expected_outputs] [sim_outputs]
-``` 
-An example can be: 
+### Usage
 
 ```bash
-python3 sim_calc_accuracy.py Cardio_MLP_C_exact ./cardio/expected_outputs.txt ./cardio/testbench/sim_outputs.txt
-``` 
-Output:
+python3 sim_calc_accuracy.py <name_of_model> <expected_outputs> <sim_outputs>
+```
+
+#### Example
+
 ```bash
-accuracy:  0.8808777429467085
-``` 
+python3 sim_calc_accuracy.py Cardio_MLP_C_exact ./baseline_models/hdl/testbench/IO/Cardio_expected_outputs.txt ./baseline_models/hdl/testbench/sim_outputs.txt
+```
+
+#### Output
+
+```bash
+accuracy: 0.8808777429467085
+```
+
+## Cross-layer Approximations for Printed ML Circuits [4]
+
+For detailed information on cross-layer approximations in printed machine learning circuits, refer to the `./Cross-layer approximations for printed ML circuits` directory.
+
+## Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits [6]
+
+Explore the co-design approaches for developing approximate Multilayer Perceptrons (MLP) suitable for ultra-resource-constrained printed circuits in the `./Cross-layer approximations for printed ML circuits` directory.
+
+## On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design [7]
+
+For insights into on-sensor printed machine learning classification facilitated by bespoke ADC and Decision Tree co-design, visit the `./On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design` directory.
+
+
 
 
 ## Measured Results
@@ -157,6 +148,8 @@ All of the datasets were obtained from the UCI Machine Learning Repository:
 [6] G. Armeniakos, G. Zervakis, D. Soudris, M. B. Tahoori and J. Henkel, "Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits," in IEEE Transactions on Computers, doi: 10.1109/TC.2023.3251863.
 [[ArXiv link]](https://arxiv.org/abs/2302.14576)
 
+[7] G. Armeniakos, P. L. Duarte, P. Pal, G. Zervakis, M. B. Tahoori and D. Soudris, "On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design", 2024 Design, Automation & Test in Europe Conference & Exhibition (DATE), Valencia, Spain, 2024.
+[[ArXiv link]](https://arxiv.org/abs/2312.01172)
 
 ### Citation:
 
@@ -188,6 +181,16 @@ If you find our project helpful, please consider citing our paper:
   year={2023},
   pages={1-8}
   }
+  
+@misc{
+  armeniakos2024onsensor,
+  title={On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design}, 
+  author={Giorgos Armeniakos and Paula L. Duarte and Priyanjana Pal and Georgios Zervakis and Mehdi B. Tahoori and Dimitrios Soudris},
+  year={2023},
+  eprint={2312.01172},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
 
 ```
 
