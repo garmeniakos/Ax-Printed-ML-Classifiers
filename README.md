@@ -90,7 +90,7 @@ For detailed information on cross-layer approximations in printed machine learni
 
 ## Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits [6]
 
-Explore the co-design approaches for developing approximate Multilayer Perceptrons (MLP) suitable for ultra-resource-constrained printed circuits in the `./Cross-layer approximations for printed ML circuits` directory.
+Explore the co-design approaches for developing approximate Multilayer Perceptrons (MLP) suitable for ultra-resource-constrained printed circuits in the `./Co-Design of Approximate Multilayer Perceptron for Ultra-Resource Constrained Printed Circuits` directory.
 
 ## On-sensor Printed Machine Learning Classification via Bespoke ADC and Decision Tree Co-Design [7]
 
