@@ -4,7 +4,7 @@
   <a href="#overview">Overview</a> •
   <a href="#exact-baseline-models">Baseline models</a> •
   <a href="#evaluate-fp32-models">Accuracy evaluation</a> •
-  <a href="#Cross-layer-Approximations-for-Printed-ML-Circuits">Our works</a> •  
+  <a href="#cross-layer-approximations-for-printed-ml-circuits">Our works</a> •  
   <a href="#measured-results"> Measured Results </a> •
   <a href="#references">References</a> 
 </p>
@@ -84,7 +84,7 @@ python3 sim_calc_accuracy.py Cardio_MLP_C_exact ./baseline_models/hdl/testbench/
 accuracy: 0.8808777429467085
 ```
 
-## Cross-layer Approximations for Printed ML Circuits [4]
+## Cross-layer Approximations for Printed ML Circuits
 
 For detailed information on cross-layer approximations in printed machine learning circuits, refer to the `./Cross-layer approximations for printed ML circuits` directory.
 
