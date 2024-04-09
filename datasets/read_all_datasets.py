@@ -10,6 +10,7 @@ class read_features_and_labels(Dataset):
     data = pd.read_csv(self.fname,sep=',')
     #self.features = data.drop('Y', axis = 1)
     #self.labels = data['Y']
+    self.features = data.iloc[:, :-1].values
     self.labels = data.iloc[:, -1]
     
 class RedWine(read_features_and_labels): 
