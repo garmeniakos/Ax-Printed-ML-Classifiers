@@ -1,7 +1,7 @@
 import sys
 from sklearn.model_selection import train_test_split
 from joblib import dump, load
-from read_all_datasets import *
+from datasets.read_all_datasets import *
 
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler, LabelEncoder, MinMaxScaler
